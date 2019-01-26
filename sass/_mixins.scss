@@ -1,15 +1,22 @@
-// Fonts for the website:
 
-$FontForHeaders: 'Exo', sans-serif;
-$FontForParas: 'Lato', sans-serif;
+//navBar related mixins:
 
-//Commonly Used Colors for layout of website:
+@mixin unOrList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
-$red: rgba(150, 40, 27, 1);
-$gray: rgba(236, 240, 241, 1);
-$blue: rgba(44, 62, 80, 1);
+@mixin listItems {
+    float: left;
+}
 
-//breakpoint for media sizing
-
-$minPhone-width: 200px;
-$tablet: 600px;
+@mixin AlistItem {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

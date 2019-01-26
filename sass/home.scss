@@ -1,0 +1,13 @@
+@import 'mixins';
+
+@import 'colors_fonts_media';
+
+ul {
+    @include unOrList;
+    li {
+        @include listItems;
+        a {
+            @include AlistItem;
+        }
+    }
+}
