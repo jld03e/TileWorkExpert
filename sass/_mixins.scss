@@ -2,6 +2,8 @@
 //navBar related mixins:
 
 @mixin unOrList {
+    display: flex;
+    align-items: flex-end;
     list-style-type: none;
     margin: 0;
     padding: 0;
