@@ -3,11 +3,27 @@
 @import 'colors_fonts_media';
 
 ul {
-    @include unOrList;
-    li {
-        @include listItems;
-        a {
-            @include AlistItem;
+    @include flexNav;
+    .navBarLinks {
+        @include unOrList;
+        li {
+            @include listItems;
+            a {
+                @include AlistItem;
+            }
+        }
+    }
+}
+
+ul {
+    .navBarLogo {
+        @include unOrList;
+        li {
+            img {
+                height: 90px;
+                padding: 15px;
+                padding-left: 3px;
+            }
         }
     }
 }

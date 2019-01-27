@@ -1,9 +1,11 @@
 
 //navBar related mixins:
 
-@mixin unOrList {
+@mixin flexNav {
     display: flex;
-    align-items: flex-end;
+}
+
+@mixin unOrList {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,11 +14,11 @@
 }
 
 @mixin listItems {
-    float: left;
+    display: inline-flex;
 }
 
 @mixin AlistItem {
-    display: block;
+    display: inline-flex;
     color: black;
     text-align: center;
     padding: 14px 16px;
