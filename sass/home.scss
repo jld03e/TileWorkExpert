@@ -8,6 +8,9 @@ ul {
         @include listItems;
         a {
             @include AlistItem;
+            img {
+                height: 90px;
+            }
         }
     }
 }
