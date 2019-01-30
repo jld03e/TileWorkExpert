@@ -14,10 +14,11 @@
 }
 
 @mixin listItems {
-    display: inline-flex;
+    display: inline;
 }
 
 @mixin AlistItem {
+    padding-top: 40px;
     display: inline-flex;
     color: black;
     text-align: center;
