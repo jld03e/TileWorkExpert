@@ -8,6 +8,8 @@ ul .navBarLinks li a { justify-content: center; padding-top: 40px; display: inli
 
 ul .navBarLinks h1 { font-family: "Exo", sans-serif; font-size: 30px; font-weight: 900; text-align: justify; padding-left: 100px; }
 
-.slideshow { padding: 10px; max-width: auto; max-height: auto; position: absolute; margin: auto; }
+.slideshow { display: flex; width: 100%; max-height: 50%; margin: auto; }
+
+.slideshow img { width: 100%; }
 
 /*# sourceMappingURL=home.css.map */
