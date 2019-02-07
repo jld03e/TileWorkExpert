@@ -18,6 +18,7 @@
 }
 
 @mixin AlistItem {
+    justify-content: center;
     padding-top: 40px;
     display: inline-flex;
     color: black;

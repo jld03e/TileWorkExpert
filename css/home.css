@@ -1,11 +1,13 @@
-ul .navBarLogo { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: white; flex: 3; padding-left: 100px; }
+ul .navBarLogo { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: white; flex: 6; padding-left: 100px; }
 ul .navBarLogo li img { height: 90px; padding: 15px; padding-left: 3px; }
 
 ul { display: flex; }
-ul .navBarLinks { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: white; flex: 3; }
+ul .navBarLinks { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: white; flex: 6; }
 ul .navBarLinks li { display: inline; }
-ul .navBarLinks li a { padding-top: 40px; display: inline-flex; color: black; text-align: center; padding: 14px 16px; text-decoration: none; font-family: "Exo", sans-serif; }
+ul .navBarLinks li a { justify-content: center; padding-top: 40px; display: inline-flex; color: black; text-align: center; padding: 14px 16px; text-decoration: none; font-family: "Exo", sans-serif; }
 
 ul .navBarLinks h1 { font-family: "Exo", sans-serif; font-size: 30px; font-weight: 900; text-align: justify; padding-left: 100px; }
+
+.slideshow { padding: 10px; max-width: auto; max-height: auto; position: absolute; margin: auto; }
 
 /*# sourceMappingURL=home.css.map */
